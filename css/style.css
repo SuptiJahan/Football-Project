@@ -14,8 +14,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-width:1060px;
-margin: 0 auto;
+padding: 0 5%;
 }
 section#banner-section {
     background:#2D25A0;
@@ -41,9 +40,11 @@ section#banner-section {
 }
 .buttn a {
     color: var(--text);
-    background:#E02C6D;
+    background: #E02C6D;
     text-decoration: none;
     padding: 10px 24px 10px 24px;
+    display: inline-block;
+    margin: 27px 0 0 40px;
 }
 /*player_list_section*/
 
@@ -92,4 +93,7 @@ section#banner-section {
 .inner-left p {
     font-size: 16px;
     line-height: 28px;
+}
+.buttn a {
+    margin-left: 0px!important;
 }
