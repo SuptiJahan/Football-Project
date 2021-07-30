@@ -38,13 +38,15 @@ section#banner-section {
 .banner-right {
     margin-bottom: 86px;
 }
+.banner-left .buttn {
+    margin: 27px 0 0 60px;
+}
 .buttn a {
     color: var(--text);
     background: #E02C6D;
     text-decoration: none;
     padding: 10px 24px 10px 24px;
     display: inline-block;
-    margin: 27px 0 0 40px;
 }
 /*player_list_section*/
 
@@ -95,5 +97,5 @@ section#banner-section {
     line-height: 28px;
 }
 .buttn a {
-    margin-left: 0px!important;
+    margin: 27px 0 0 0!important;
 }
